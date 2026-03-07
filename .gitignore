@@ -1,0 +1,84 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.local
+
+# ========================
+# Audio Files
+# ========================
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# ========================
+# AI Models (very large)
+# ========================
+models/
+*.onnx
+*.pt
+*.bin
+
+# Piper models
+piper/models/
+
+# Whisper cache
+.cache/
+whisper_cache/
+
+# ========================
+# Redis dump
+# ========================
+dump.rdb
+
+# ========================
+# Temporary files
+# ========================
+tmp/
+temp/
+*.tmp
+
+# ========================
+# Node (if frontend added)
+# ========================
+node_modules/
+package-lock.json
