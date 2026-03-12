@@ -10,3 +10,7 @@ python-multipart
 websockets
 numpy
 soundfile
+torch
+torchaudio
+silero-vad
+ollama
